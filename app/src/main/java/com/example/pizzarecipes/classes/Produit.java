@@ -1,7 +1,7 @@
 package com.example.pizzarecipes.classes;
 
 public class Produit {
-    private static long AUTO_ID = 1; // auto-incrément en mémoire
+    private static long AUTO_ID = 1;
 
     private long id;
     private String nom;
@@ -30,21 +30,23 @@ public class Produit {
         this.etapes = etapes;
     }
 
-    // Getters et Setters
+    // Getters
     public long getId() { return id; }
     public String getNom() { return nom; }
-    public void setNom(String nom) { this.nom = nom; }
     public double getPrix() { return prix; }
-    public void setPrix(double prix) { this.prix = prix; }
     public int getImageRes() { return imageRes; }
-    public void setImageRes(int imageRes) { this.imageRes = imageRes; }
     public String getDuree() { return duree; }
-    public void setDuree(String duree) { this.duree = duree; }
     public String getIngredients() { return ingredients; }
-    public void setIngredients(String ingredients) { this.ingredients = ingredients; }
     public String getDescription() { return description; }
-    public void setDescription(String description) { this.description = description; }
     public String getEtapes() { return etapes; }
+
+    // Setters
+    public void setNom(String nom) { this.nom = nom; }
+    public void setPrix(double prix) { this.prix = prix; }
+    public void setImageRes(int imageRes) { this.imageRes = imageRes; }
+    public void setDuree(String duree) { this.duree = duree; }
+    public void setIngredients(String ingredients) { this.ingredients = ingredients; }
+    public void setDescription(String description) { this.description = description; }
     public void setEtapes(String etapes) { this.etapes = etapes; }
 
     @Override

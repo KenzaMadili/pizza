@@ -11,15 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaRecipes">
+
+        <!-- SplashActivity comme écran de démarrage -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- ListPizzaActivity (à créer à l'étape 6) -->
+        <activity
+            android:name=".ui.ListPizzaActivity"
+            android:exported="false" />
+
+        <activity android:name=".ui.PizzaDetailActivity" android:exported="false" />
+
+
     </application>
 
 </manifest>
