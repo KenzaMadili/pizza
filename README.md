@@ -1,6 +1,6 @@
 
 
-https://github.com/user-attachments/assets/db21c5e0-3d29-460a-bcd1-5cb0282da295
+
 
 
 
@@ -157,7 +157,7 @@ Elle présente les principales fonctionnalités :
 ### 📹 Vidéo
 
 👉 [Voir la vidéo de démonstration](/demo_pizza.mp4)
-
+https://github.com/user-attachments/assets/db21c5e0-3d29-460a-bcd1-5cb0282da295
 ---
 
 ## 📁 Fichier vidéo
